@@ -22,8 +22,10 @@ export default {
     handleScroll() {
       const scrollPosition = window.scrollY;
       gsap.to(".hero-bg", {
-        y: scrollPosition * 0.7,
+        y: scrollPosition * 0.6,
         ease: "power2.out",
+        // duration: 1200,
+        // fill: "forwards",
       });
     },
   },
@@ -48,7 +50,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?w=1600&auto=format&fit=crop&q=80")
+    background: url("/img/vasilina-sirotina-EFHbtvK_Cb4-unsplash.jpg")
       center/cover no-repeat;
     z-index: -1;
   }

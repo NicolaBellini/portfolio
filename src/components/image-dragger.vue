@@ -107,6 +107,9 @@ export default {
   margin: 0;
   overflow: hidden;
   position: relative;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url("/img/vasilina-sirotina-EFHbtvK_Cb4-unsplash.jpg") center/cover
+      no-repeat;
   #imageTrack {
     display: flex;
     gap: 4rem;
