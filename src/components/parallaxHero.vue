@@ -24,7 +24,7 @@ export default {
       gsap.to(".hero-bg", {
         y: scrollPosition * 0.6,
         ease: "power2.out",
-        // duration: 1200,
+        duration: 1200,
         // fill: "forwards",
       });
     },
