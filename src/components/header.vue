@@ -11,7 +11,7 @@ export default {
       <ul>
         <li>home</li>
         <li>
-          <img src="/img/logo.webp" alt="" />
+          <img class="logo" src="/public/img/logo1.png" alt="" />
         </li>
         <li>about</li>
       </ul>
@@ -43,17 +43,17 @@ header {
       li {
         list-style: none;
         margin-inline-end: 10px;
+        .logo {
+          max-width: 110px;
+          opacity: 1;
+          height: auto;
+          position: absolute;
+          top: 0px;
+          left: 50%;
+          color: white;
+          transform: translate(-50%, -20%);
+        }
       }
-    }
-    img {
-      mix-blend-mode: multiply;
-      max-width: 110px;
-      opacity: 1;
-      height: auto;
-      position: absolute;
-      top: 0px;
-      left: 50%;
-      transform: translate(-50%, 0%);
     }
   }
 }
