@@ -1,12 +1,10 @@
 <script>
-import headerVue from "./components/header.vue";
 import imageDragger from "./components/image-dragger.vue";
 import parallaxHero from "./components/parallaxHero.vue";
 // import imageDragger from "./components/image-dragger.vue";
 
 export default {
   components: {
-    headerVue,
     imageDragger,
     parallaxHero,
   },
@@ -14,7 +12,6 @@ export default {
 </script>
 
 <template>
-  <headerVue />
   <parallaxHero />
   <imageDragger />
 </template>
